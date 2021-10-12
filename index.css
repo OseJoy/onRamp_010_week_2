@@ -1,0 +1,142 @@
+h1{
+    font-weight: 300;
+}
+h2{
+    padding-left: 3%;
+    font-weight: 700;
+    padding-top: 3%;
+}
+h5{
+    font-weight: 400px;
+}
+body{
+    font-family: 'Spartan', sans-serif;
+    color: hsl(0, 0%, 98%);
+}
+footer{
+    background-color: hsl(234, 30%, 13%);
+}
+.top-display{
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+.reservationForm{
+    align-content: center;
+    position: relative;
+    left: 10%;
+    background-color: hsl(0, 0%, 98%);
+    margin-top: 11%;
+    margin-left: 10%;
+    padding: 1% 1% 1% 1%;
+}
+/*label{
+    display: inline-block;
+    width: 40%;
+    box-sizing: border-box;
+    vertical-align: top;
+}*/
+input{
+    display: block;
+    /*width: 40%;
+    box-sizing: border-box;*/
+    margin: 4% 4% 4% 4%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+} 
+#name{
+    margin-bottom: 0%;
+}
+#email{
+    margin-bottom: 0%;
+}
+#dateBook{
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#timeBook{
+    margin-top: 0%;
+}
+form{
+    display: grid;
+    color: hsl(234, 30%, 13%);
+}
+.Persons{
+    text-align: center;
+    margin-top: 0%;
+}
+button{
+    padding: 2% 3% 2% 3%;
+    background-color: hsl(0, 0%, 7%);
+    color: hsl(0, 0%, 98%);
+}
+.text1{
+    padding-left: 3%;
+}
+@media only screen and (min-width: 1200px){
+    .top-display{
+        background-image: url(./starter-code/utils/images/hero-bg-desktop@2x.jpg);
+        height: 500px;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    .container1{
+        display: flex;
+    }
+    footer{
+        display: flex;
+        height: 10em;
+    }
+    .addr_footer{
+        padding-left: 25%;
+        padding-top: 3%;
+    }
+    .time_footer{
+        padding-left: 25%;
+        padding-top: 3%;
+    }
+    /*button{
+        width: 15%;
+        font-weight: 300;
+    }*/
+}
+@media only screen and (min-width:600px){
+    .top-display{
+        background-image: url(./starter-code/utils/images/hero-bg-tablet@2x.jpg);
+        height: 500px;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    form{
+        width: 3%;
+    }
+    .container1{
+        display: flex;
+    }
+    footer{
+       text-align: center; 
+    }
+    .reservationForm{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:600px){
+    .top-display{
+        background-image: url(./starter-code/utils/images/hero-bg-mobile@2x.jpg);
+        height: 580px;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    form{
+        max-width: 3%;
+    }
+    footer{
+        text-align: center; 
+    }
+}
